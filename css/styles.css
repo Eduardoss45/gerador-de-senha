@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: white;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.label {
+  border: 1px solid black;
+  width: 330px;
+  height: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+  border-radius: 2px;
+  background-color: #00000090;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
+}
+
+.divider {
+  border-bottom: 1px solid #ffffff;
+  margin: 2px 0;
+}
+
+.bold {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.large {
+  height: 10px;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info p {
+  font-weight: 100;
+  margin: 0;
+}
+
+.left-container p {
+  margin: -5px -2px;
+  font-size: 2em;
+}
+
+.info span {
+  margin: -7px -2px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+button {
+  margin-bottom: 2px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.password-value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.password {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+}

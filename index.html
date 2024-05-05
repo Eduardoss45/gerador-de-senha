@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="label">
+      <header>
+        <h1 class="bold">Gerador de Senha</h1>
+        <div class="divider"></div>
+        <p>Comprimento da senha:<span id="lengthValue"></span></p>
+      </header>
+      <input
+        type="range"
+        id="lengthInput"
+        step="1"
+        class="slider"
+        min="8"
+        max="15"
+        value="8"
+      />
+      <div class="divider"></div>
+      <div class="info">
+        <div class="left-container">
+          <p>Senha Gerada:</p>
+          <p class="bold password" id="generatedPassword">Senha</p>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="password-value small-text">
+        <button id="generatePasswordButton" class="button-cta">
+          Gerar senha
+        </button>
+      </div>
+    </div>
+    <script src="./js/scripts.js" defer></script>
+  </body>
+</html>
